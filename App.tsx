@@ -1,13 +1,12 @@
-
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Collections from './components/Collections';
-import Features from './components/Features';
-import CTASection from './components/CTASection';
-import Footer from './components/Footer';
-import CartDrawer from './components/CartDrawer';
-import { CartProvider } from './context/CartContext';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Collections from './components/Collections.tsx';
+import Features from './components/Features.tsx';
+import CTASection from './components/CTASection.tsx';
+import Footer from './components/Footer.tsx';
+import CartDrawer from './components/CartDrawer.tsx';
+import { CartProvider } from './context/CartContext.tsx';
 import { MessageCircle } from 'lucide-react';
 
 const App: React.FC = () => {

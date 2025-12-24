@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../context/CartContext.tsx';
 import { PlusCircle } from 'lucide-react';
 
 const collections = [

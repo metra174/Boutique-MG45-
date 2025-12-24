@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { ShoppingBag } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../context/CartContext.tsx';
 
 const Navbar: React.FC = () => {
   const { setIsCartOpen, itemCount } = useCart();
